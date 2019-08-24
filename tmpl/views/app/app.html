@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title>${meta.title}</title>
+	
+	${meta.head}
+	
+	${includes.css:app/includes/css:\n	}
+
+	<script type="application/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="application/javascript" src="assets/js/angular.min.js"></script>
+	<script type="application/javascript" src="assets/js/angular-route.min.js"></script>
+	<script type="application/javascript" src="assets/js/app.min.js"></script>
+	<script type="application/javascript" src="assets/js/${name}.min.js"></script>
+	
+	${includes.min_js:app/includes/js:\n	}
+	
+	${includes.html:app/includes/precache:\n	}
+	
+</head>
+
+<body>
+	
+	${content}
+	
+</body>
+
+</html>

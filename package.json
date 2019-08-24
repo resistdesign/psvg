@@ -1,0 +1,42 @@
+{
+  "name": "ParasolSVG",
+  "version": "1.0.0",
+  "description": "Tools and Compilers for quickly building production ready applications using AngularJS directives with SVG view and component layouts.",
+  "main": "index.js",
+  "bin": {
+    "psvg": "psvg.js"
+  },
+  "scripts": {
+    "test": "jasmine-node spec/ --verbose --autotest --watch ./"
+  },
+  "keywords": [
+    "Adobe Illustrator",
+    "SVG",
+    "AngularJS"
+  ],
+  "author": "Ryan T. Graff",
+  "license": "private",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connectstudios/parasol-svg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/connectstudios/parasol-svg/issues"
+  },
+  "homepage": "https://github.com/connectstudios/parasol-svg",
+  "dependencies": {
+    "chokidar": "^0.9.0",
+    "connect": "~2.11.2",
+    "extend": "~1.2.1",
+    "js-beautify": "~1.4.2",
+    "less": "~1.5.1",
+    "optimist": "~0.6.0",
+    "raphael-browserify": "~2.1.0",
+    "uglify-js": "~2.4.4",
+    "wrench": "~1.5.4",
+    "xmldoc": "~0.1.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0"
+  }
+}
